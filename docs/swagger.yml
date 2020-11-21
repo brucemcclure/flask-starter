@@ -1,0 +1,144 @@
+openapi: '3.0.2'
+info:
+  title: Sprint Cup
+  version: '1.0'
+servers:
+  - url: "this is where the api url will be"
+tags: 
+- name: "Authorization"
+  description: "Regitering new users and logging in"
+- name: "Profile"
+  description: "Personal information such as the users real name"
+
+paths:
+  /auth/login:
+    post:
+      operationId: "auth_login"
+      tags: 
+      - "Authorization"
+      summary: "Login to recieve a JWT token"
+
+      parameters:
+        - name: "email"
+          description: "The email address used to sign up"
+          schema:
+            type: string        
+          required: true
+        - name: "password"
+          description: "The password the user used to register"
+          schema:
+            type: string           
+          required: true          
+
+      responses:
+        '200':
+          description: OK
+          headers:
+          content:
+            application/json:
+              schema:
+                type: string
+        
+        '400': 
+          description: Incorrect username or password
+          headers:
+          content:
+            application/json:
+              schema:
+                type: string
+
+        
+  /auth/register:
+    post:
+      operationId: "auth_register"
+      tags: 
+      - "Authorization"
+      summary: "Register a new user"
+      parameters:
+        - name: "email"
+          description: "The email address used to sign up"
+          schema:
+            type: string        
+          required: true
+        - name: "password"
+          description: "The password the user used to register"
+          schema:
+            type: string           
+          required: true          
+          
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Email already in use
+
+
+  /profile/:
+    get:
+      operationId: "profile_index"
+      tags: 
+      - "Profile"
+      summary: "Index page for all the profiles"
+      responses:
+        '200':
+          description: OK
+
+    post:
+      tags: 
+      - "Profile"
+      summary: "Create a new profile"
+      responses:
+        '200':
+          description: OK
+
+  /profile/{profileId}:
+    get:
+      operationId: "profile_show"
+      tags: 
+      - "Profile"
+      parameters:
+        - name: profileId
+          in: path
+          description: ID of profile to return
+          required: true
+          schema:
+            type: integer
+      summary: "Find profile by ID"
+      responses:
+        '200':
+          description: OK
+      
+    patch:
+      operationId: "profile_update"
+      tags: 
+      - "Profile"
+      parameters:
+        - name: profileId
+          in: path
+          description: ID of profile to return
+          required: true
+          schema:
+            type: integer
+      summary: "Update profile by ID"
+      responses:
+        '200':
+          description: OK
+
+    delete:
+      operationId: "profile_delete"
+      tags: 
+      - "Profile"
+      parameters:
+        - name: profileId
+          in: path
+          description: ID of profile to return
+          required: true
+          schema:
+            type: integer
+      summary: "Delete profile by ID"
+      responses:
+        '200':
+          description: OK
+
+
+  
