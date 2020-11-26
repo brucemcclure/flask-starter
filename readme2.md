@@ -40,9 +40,9 @@ NB This does not include their dependencies. Please see the requirements.txt
 | bcrypt                 | Good password hashing for your software and your servers | https://pypi.org/project/bcrypt/                     |
 | SQLAlchemy             | ORM                                                      | https://docs.sqlalchemy.org/en/13/orm/               |
 | boto3                  | AWS python SDK                                           | https://pypi.org/project/boto3/                      |
-| marshmallow            | used to convert complex datatypes to and from Python     |                                                      |
-| Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    |                                                      |
-| Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           |                                                      |
+| marshmallow            | Used to convert complex datatypes to and from Python     | https://pypi.org/project/marshmallow/                |
+| Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    | https://pypi.org/project/Flask-Migrate/              |
+| Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           | https://pypi.org/project/Flask-SQLAlchemy/           |
 | marshmallow-sqlalchemy | Integration for SQLAlchemy and marshmallow               |                                                      |
 | psycopg2-binary        | Postgres adapter for Python                              |                                                      |
 
