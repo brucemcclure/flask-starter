@@ -32,19 +32,19 @@ flask db-custom seed seeds the database
 This project contains the following pip packages
 NB This does not include their dependencies. Please see the requirements.txt
 
-| package                | Use                                                      | Link to docs                                         |
-| ---------------------- | -------------------------------------------------------- | ---------------------------------------------------- |
-| Flask                  | Python Micro Framework                                   | https://flask.palletsprojects.com/en/1.1.x/          |
-| flask-marshmallow      | Integration layer for Flaks and Marshmallow              | https://flask-marshmallow.readthedocs.io/en/latest/  |
-| Flask-JWT-Extended     | Support for managing JWTs with flask                     | https://flask-jwt-extended.readthedocs.io/en/stable/ |
-| bcrypt                 | Good password hashing for your software and your servers | https://pypi.org/project/bcrypt/                     |
-| SQLAlchemy             | ORM                                                      | https://docs.sqlalchemy.org/en/13/orm/               |
-| boto3                  | AWS python SDK                                           | https://pypi.org/project/boto3/                      |
-| marshmallow            | Used to convert complex datatypes to and from Python     | https://pypi.org/project/marshmallow/                |
-| Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    | https://pypi.org/project/Flask-Migrate/              |
-| Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           | https://pypi.org/project/Flask-SQLAlchemy/           |
-| marshmallow-sqlalchemy | Integration for SQLAlchemy and marshmallow               | https://pypi.org/project/marshmallow-sqlalchemy/     |
-| psycopg2               | Postgres adapter for Python                              | https://pypi.org/project/psycopg2/                   |
+| package                  | Use                                                      | Link to docs                                         |
+| ------------------------ | -------------------------------------------------------- | ---------------------------------------------------- |
+| [Flask]()                | Python Micro Framework                                   | https://flask.palletsprojects.com/en/1.1.x/          |
+| [flask-marshmallow]()    | Integration layer for Flaks and Marshmallow              | https://flask-marshmallow.readthedocs.io/en/latest/  |
+| [Flask-JWT-Extended]()   | Support for managing JWTs with flask                     | https://flask-jwt-extended.readthedocs.io/en/stable/ |
+| [bcrypt]()               | Good password hashing for your software and your servers | https://pypi.org/project/bcrypt/                     |
+| [SQLAlchemy]()           | ORM                                                      | https://docs.sqlalchemy.org/en/13/orm/               |
+| [boto3]()                | AWS python SDK                                           | https://pypi.org/project/boto3/                      |
+| [marshmallow]()          | Used to convert complex datatypes to and from Python     | https://pypi.org/project/marshmallow/                |
+| [Flask-Migrate]()        | SQLAlchemy DB migrations for Flask apps using Alembic    | https://pypi.org/project/Flask-Migrate/              |
+| [Flask-SQLAlchemy]()     | Adds support for SWLAlchemy for your flask app           | https://pypi.org/project/Flask-SQLAlchemy/           |
+| [marshmallow-sqlalchemy] | Integration for SQLAlchemy and marshmallow               | https://pypi.org/project/marshmallow-sqlalchemy/     |
+| [psycopg2]()             | Postgres adapter for Python                              | https://pypi.org/project/psycopg2/                   |
 
 NB: if psycopg2 doent install then install psycopg2-binary `pip install psycopg2-binary`
 `python -m unittest discover -s src/tests -v`
