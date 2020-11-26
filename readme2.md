@@ -46,5 +46,8 @@ NB This does not include their dependencies. Please see the requirements.txt
 | [marshmallow-sqlalchemy](https://pypi.org/project/marshmallow-sqlalchemy/) | Integration for SQLAlchemy and marshmallow               |
 | [psycopg2](https://pypi.org/project/psycopg2/)                             | Postgres adapter for Python                              |
 
-NB: if psycopg2 doent install then install psycopg2-binary `pip install psycopg2-binary`
+###### NB: if psycopg2 doent install then install psycopg2-binary `pip install psycopg2-binary`
+
 `python -m unittest discover -s src/tests -v`
+
+### Examples of relationships
