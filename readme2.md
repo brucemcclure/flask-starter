@@ -13,10 +13,7 @@ Must change the profile view to check JWT
 | Create the database                    | `CREATE DATABASE {db_name};`                            |
 | Create user                            | `CREATE USER {user};`                                   |
 | Give full privalages to the admin user | `grant all privileges on database {db_name} to {user};` |
-
-psql
-grant all privileges on database database_name to name_of_user_to_administer_db;
-alter user app with encrypted password 'a pretty good password';
+| change password for user               | `ALTER USER {user} WITH ENCRYPTED PASSWORD '{password}` |
 
 ### Commands to interact with db
 
