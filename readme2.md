@@ -32,18 +32,18 @@ flask db-custom seed seeds the database
 This project contains the following pip packages
 NB This does not include their dependencies. Please see the requirements.txt
 
-| package                | Use                                                      |
-| ---------------------- | -------------------------------------------------------- |
-| Flask                  | Python Micro Framework                                   |
-| flask-marshmallow      | Integration layer for Flaks and Marshmallow              |
-| Flask-JWT-Extended     | Support for managing JWTs with flask                     |
-| bcrypt                 | Good password hashing for your software and your servers |
-| SQLAlchemy             | ORM                                                      |
-| boto3                  | AWS python SDK                                           |
-| marshmallow            | used to convert complex datatypes to and from Python     |
-| Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    |
-| Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           |
-| marshmallow-sqlalchemy | Integration for SQLAlchemy and marshmallow               |
-| psycopg2-binary        | Postgres adapter for Python                              |
+| package                | Use                                                      | Link to docs                                         |
+| ---------------------- | -------------------------------------------------------- | ---------------------------------------------------- |
+| Flask                  | Python Micro Framework                                   | https://flask.palletsprojects.com/en/1.1.x/          |
+| flask-marshmallow      | Integration layer for Flaks and Marshmallow              | https://flask-marshmallow.readthedocs.io/en/latest/  |
+| Flask-JWT-Extended     | Support for managing JWTs with flask                     | https://flask-jwt-extended.readthedocs.io/en/stable/ |
+| bcrypt                 | Good password hashing for your software and your servers |                                                      |
+| SQLAlchemy             | ORM                                                      |                                                      |
+| boto3                  | AWS python SDK                                           |                                                      |
+| marshmallow            | used to convert complex datatypes to and from Python     |                                                      |
+| Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    |                                                      |
+| Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           |                                                      |
+| marshmallow-sqlalchemy | Integration for SQLAlchemy and marshmallow               |                                                      |
+| psycopg2-binary        | Postgres adapter for Python                              |                                                      |
 
 `python -m unittest discover -s src/tests -v`
