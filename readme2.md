@@ -52,6 +52,8 @@ NB This does not include their dependencies. Please see the requirements.txt
 
 ### Examples of relationships
 
-| Relationship | Example              |
-| ------------ | -------------------- |
-| one-to-one   | User has one Profile |
+| Relationship | Example                                      |
+| ------------ | -------------------------------------------- |
+| one-to-one   | User has one Profile                         |
+| one-to-many  | User has many Picures                        |
+| Many-to-many | User has many Examples through examples_join |
