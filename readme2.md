@@ -32,19 +32,19 @@ flask db-custom seed seeds the database
 This project contains the following pip packages
 NB This does not include their dependencies. Please see the requirements.txt
 
-| package                                                                    | Use                                                      | Link to docs |
-| -------------------------------------------------------------------------- | -------------------------------------------------------- | ------------ |
-| [Flask](https://flask.palletsprojects.com/en/1.1.x/)                       | Python Micro Framework                                   |              |
-| [flask-marshmallow](https://flask-marshmallow.readthedocs.io/en/latest/)   | Integration layer for Flaks and Marshmallow              |              |
-| [Flask-JWT-Extended](https://flask-jwt-extended.readthedocs.io/en/stable/) | Support for managing JWTs with flask                     |              |
-| [bcrypt](https://pypi.org/project/bcrypt/)                                 | Good password hashing for your software and your servers |              |
-| [SQLAlchemy](https://docs.sqlalchemy.org/en/13/orm/)                       | ORM                                                      |              |
-| [boto3](https://pypi.org/project/boto3/)                                   | AWS python SDK                                           |              |
-| [marshmallow](https://pypi.org/project/marshmallow/)                       | Used to convert complex datatypes to and from Python     |              |
-| [Flask-Migrate](https://pypi.org/project/Flask-Migrate/)                   | SQLAlchemy DB migrations for Flask apps using Alembic    |              |
-| [Flask-SQLAlchemy](https://pypi.org/project/Flask-SQLAlchemy/)             | Adds support for SWLAlchemy for your flask app           |              |
-| [marshmallow-sqlalchemy](https://pypi.org/project/marshmallow-sqlalchemy/) | Integration for SQLAlchemy and marshmallow               |              |
-| [psycopg2](https://pypi.org/project/psycopg2/)                             | Postgres adapter for Python                              |              |
+| package                                                                    | Use                                                      |
+| -------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Flask](https://flask.palletsprojects.com/en/1.1.x/)                       | Python Micro Framework                                   |
+| [flask-marshmallow](https://flask-marshmallow.readthedocs.io/en/latest/)   | Integration layer for Flaks and Marshmallow              |
+| [Flask-JWT-Extended](https://flask-jwt-extended.readthedocs.io/en/stable/) | Support for managing JWTs with flask                     |
+| [bcrypt](https://pypi.org/project/bcrypt/)                                 | Good password hashing for your software and your servers |
+| [SQLAlchemy](https://docs.sqlalchemy.org/en/13/orm/)                       | ORM                                                      |
+| [boto3](https://pypi.org/project/boto3/)                                   | AWS python SDK                                           |
+| [marshmallow](https://pypi.org/project/marshmallow/)                       | Used to convert complex datatypes to and from Python     |
+| [Flask-Migrate](https://pypi.org/project/Flask-Migrate/)                   | SQLAlchemy DB migrations for Flask apps using Alembic    |
+| [Flask-SQLAlchemy](https://pypi.org/project/Flask-SQLAlchemy/)             | Adds support for SWLAlchemy for your flask app           |
+| [marshmallow-sqlalchemy](https://pypi.org/project/marshmallow-sqlalchemy/) | Integration for SQLAlchemy and marshmallow               |
+| [psycopg2](https://pypi.org/project/psycopg2/)                             | Postgres adapter for Python                              |
 
 NB: if psycopg2 doent install then install psycopg2-binary `pip install psycopg2-binary`
 `python -m unittest discover -s src/tests -v`
