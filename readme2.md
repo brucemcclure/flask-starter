@@ -21,12 +21,13 @@ flask db-custom drop drops the database
 flask db upgrade resets the database with the most recent migrations
 flask db-custom seed seeds the database
 
-| Command                   | Effect                                              |
-| ------------------------- | --------------------------------------------------- |
-| flask db-custom drop      | drops the database                                  |
-| flask db upgrade          | resets the database with the most recent migrations |
-| flask db-custom seed      | seeds the database                                  |
-| flask db-custom downgrade | rolls back the database                             |
+| Command              | Effect                                             |
+| -------------------- | -------------------------------------------------- |
+| flask db init        | Initilizes the app to use migrations               |
+| flask db-custom drop | Drops all tables in the database                   |
+| flask db upgrade     | Upgrades the database with the most recent changes |
+| flask db-custom seed | Seeds the database                                 |
+| flask db downgrade   | Downgrades the database to the previous changes    |
 
 This project contains the following pip packages
 NB This does not include their dependencies. Please see the requirements.txt
