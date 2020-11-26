@@ -7,6 +7,8 @@ Must change the profile view to check JWT
 | Install step               | command                                        |
 | -------------------------- | ---------------------------------------------- |
 | Update package information | `sudo apt update`                              |
+| Install postgres           | `sudo apt install postgresql`                  |
+| Open the Postgres console  | `psql`                                         |
 | Change user to postgres    | `sudo -i -u postgres`                          |
 | Create the database        | `CREATE DATABASE {db_name};`                   |
 | Create user                | `CREATE USER {name_of_user_to_administer_db};` |
