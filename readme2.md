@@ -51,3 +51,7 @@ NB This does not include their dependencies. Please see the requirements.txt
 `python -m unittest discover -s src/tests -v`
 
 ### Examples of relationships
+
+| Relationship | Example              |
+| ------------ | -------------------- |
+| one-to-one   | User has one Profile |
