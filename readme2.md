@@ -37,9 +37,9 @@ NB This does not include their dependencies. Please see the requirements.txt
 | Flask                  | Python Micro Framework                                   | https://flask.palletsprojects.com/en/1.1.x/          |
 | flask-marshmallow      | Integration layer for Flaks and Marshmallow              | https://flask-marshmallow.readthedocs.io/en/latest/  |
 | Flask-JWT-Extended     | Support for managing JWTs with flask                     | https://flask-jwt-extended.readthedocs.io/en/stable/ |
-| bcrypt                 | Good password hashing for your software and your servers |                                                      |
-| SQLAlchemy             | ORM                                                      |                                                      |
-| boto3                  | AWS python SDK                                           |                                                      |
+| bcrypt                 | Good password hashing for your software and your servers | https://pypi.org/project/bcrypt/                     |
+| SQLAlchemy             | ORM                                                      | https://docs.sqlalchemy.org/en/13/orm/               |
+| boto3                  | AWS python SDK                                           | https://pypi.org/project/boto3/                      |
 | marshmallow            | used to convert complex datatypes to and from Python     |                                                      |
 | Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    |                                                      |
 | Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           |                                                      |
