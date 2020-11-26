@@ -4,13 +4,13 @@ Must change the profile view to check JWT
 
 ### Commands to set up the db
 
-| Install step     | command               |
-| ---------------- | --------------------- |
-| Install postgres | `sudo -i -u postgres` |
-
-Install postgres `sudo -i -u postgres`
-createdb database_name
-createuser name_of_user_to_administer_db
+| Install step               | command                                        |
+| -------------------------- | ---------------------------------------------- |
+| Update package information | `sudo apt update`                              |
+| Change user to postgres    | `sudo -i -u postgres`                          |
+| Create the database        | `CREATE DATABASE {db_name};`                   |
+| Create user                | `CREATE USER {name_of_user_to_administer_db};` |
+| Create user                | `CREATE USER {name_of_user_to_administer_db};` |
 
 psql
 grant all privileges on database database_name to name_of_user_to_administer_db;
