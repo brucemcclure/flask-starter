@@ -43,7 +43,8 @@ NB This does not include their dependencies. Please see the requirements.txt
 | marshmallow            | Used to convert complex datatypes to and from Python     | https://pypi.org/project/marshmallow/                |
 | Flask-Migrate          | SQLAlchemy DB migrations for Flask apps using Alembic    | https://pypi.org/project/Flask-Migrate/              |
 | Flask-SQLAlchemy       | Adds support for SWLAlchemy for your flask app           | https://pypi.org/project/Flask-SQLAlchemy/           |
-| marshmallow-sqlalchemy | Integration for SQLAlchemy and marshmallow               |                                                      |
-| psycopg2-binary        | Postgres adapter for Python                              |                                                      |
+| marshmallow-sqlalchemy | Integration for SQLAlchemy and marshmallow               | https://pypi.org/project/marshmallow-sqlalchemy/     |
+| psycopg2               | Postgres adapter for Python                              | https://pypi.org/project/psycopg2/                   |
 
+NB: if psycopg2 doent install then install psycopg2-binary `pip install psycopg2-binary`
 `python -m unittest discover -s src/tests -v`
