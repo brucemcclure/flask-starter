@@ -2,6 +2,19 @@ TODO
 
 - Set up the .env file
 
+### Steps to make this your own project
+
+| Install step                         | command                                                       |
+| ------------------------------------ | ------------------------------------------------------------- |
+| Clone the repo ( https )             | `git clone https://github.com/brucemcclure/flask-starter.git` |
+| Clone the repo ( ssh )               | `git clone git@github.com:brucemcclure/flask-starter.git`     |
+| cd into said repo                    | `cd flask-starter`                                            |
+| delete the git file                  | `rm -rf .git`                                                 |
+| greate a new git file                | `git init`                                                    |
+| create a new repo in your github     | `Create your repo up in GitHub`                               |
+| push this project back up to it      | `Follow those steps setoput bu GitHub`                        |
+| Smile because youre freaking amazing | `🦆`                                                          |
+
 ### Commands to set up the db
 
 | Install step                           | command                                                 |
