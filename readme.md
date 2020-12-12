@@ -17,10 +17,6 @@ TODO
 
 ### Commands to interact with db
 
-flask db-custom drop drops the database
-flask db upgrade resets the database with the most recent migrations
-flask db-custom seed seeds the database
-
 | Command              | Effect                                             |
 | -------------------- | -------------------------------------------------- |
 | flask db init        | Initilizes the app to use migrations               |
@@ -48,9 +44,9 @@ NB This does not include their dependencies. Please see the requirements.txt
 
 ###### NB: if psycopg2 doent install then install psycopg2-binary `pip install psycopg2-binary`
 
-`python -m unittest discover -s src/tests -v`
+Run tests with this -> `python -m unittest discover -s src/tests -v`
 
-### Examples of relationships
+### Examples of relationships you should build
 
 | Relationship | Example                                      |
 | ------------ | -------------------------------------------- |
