@@ -1,6 +1,6 @@
 TODO
 
-Must change the profile view to check JWT
+- Set up the .env file
 
 ### Commands to set up the db
 
@@ -57,11 +57,3 @@ NB This does not include their dependencies. Please see the requirements.txt
 | one-to-one   | User has one Profile                         |
 | one-to-many  | User has many Picures                        |
 | Many-to-many | User has many Examples through examples_join |
-
-# How the S3 integration works
-
-- must include steps to setup IAM and S3 with boto
-- Include GIFs with Step by step instructions
--
-
-# Swagger
